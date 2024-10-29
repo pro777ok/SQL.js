@@ -2,10 +2,11 @@ const express = require('express');
 const fs = require('fs');
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 // JSONデータを保存するファイル名
 const dataFile = 'data/data.json';
+console.log("Server Start!");
 
 // 初期化（ファイルが存在しない場合は空のオブジェクトを作成）
 let data = {};
